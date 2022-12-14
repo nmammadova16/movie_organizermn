@@ -1,0 +1,20 @@
+.input, .button {
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: #1733e7;
+}
+
+.input {
+    font-size: 18px;
+}
+
+.button {
+    background-color: #c8b6ff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.button:disabled {
+    cursor: not-allowed;
+}
